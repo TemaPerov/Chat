@@ -1,0 +1,107 @@
+.container{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.titleName{
+    min-height: 80px;
+    background-color: rgb(245,245,245); 
+    display: flex;
+    justify-content: space-between;
+}
+
+.headrName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.headrName p{
+    margin-left: 10px;
+}
+.iconImg{
+    width: 50px;
+    height: 50px;  
+    border-radius: 50%;
+    object-fit: cover;
+   
+}
+.button{
+    border: none;
+    background-color: inherit;
+
+}
+.button:hover{
+    cursor: pointer;
+}
+.inputBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+    background-color: rgb(245,245,245);
+    position: relative;
+}
+
+.inputBoxWithButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 40px;
+    background-color: rgb(255,255,255);
+    border: 1px solid rgb(226,226,226);
+    border-radius: 2rem;
+}
+
+.inputBoxWithButton input{
+    border: 0;
+    width: 90%;
+    height: 30px;
+    outline: none;
+}
+
+.buttonBox{
+    width: 5%;
+    height: 60%;
+    position: relative;
+ 
+}
+
+.inputBoxWithButton button{
+    border: 0;
+    background-color: inherit;
+    z-index: 2;
+}
+.inputBoxWithButton img{
+  height: 100%;
+  width: 90%;
+  position: absolute;
+  z-index: 1;
+}
+
+
+.messageBox{
+    height: 80%;
+    background-color: rgb(250,250,250);
+    overflow:auto;
+    position: relative;
+}
+
+.scrollMessageBox{
+    position: relative;
+}
+
+.writing{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    /* bottom: 20px;
+    border:1px solid red; */
+    /* left:10px;
+    l:5%; */
+}

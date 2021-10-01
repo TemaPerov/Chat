@@ -1,0 +1,116 @@
+.iconImg {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* .messageBox {
+  width: 100%;
+  min-height: 50px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  margin: 10px 0;
+} */
+
+
+/* .pBox{
+  min-height: 90px;
+  } */
+/* .messageChack{
+  margin:0 0 0 10px;
+  box-sizing: border-box;
+  max-width: 90%;
+  padding: 10px;
+  border-radius: 2rem;
+  background-color:rgb(60,66,82);
+  display: flex;
+  color:rgb(224,224,224);
+  align-items: center;
+} */
+
+/* .messageMy {
+ right: 0;
+ background-color:rgb(224,224,224);
+ box-sizing: border-box;
+ max-width: 90%;
+ position: absolute;
+ padding: 10px;
+ border-radius: 2rem;
+ word-wrap: break-word; */
+ /* display: flex; */
+ /* align-items: center; */
+/* } */
+
+
+/* .timeChakc{
+  margin: 5px 0 0 20px;
+  font-size: 0.8em;
+  color:rgb(151,151,151);
+} */
+
+/* .timeMy{
+  position: absolute;
+  right: 0;
+  bottom: 0; 
+  
+ 
+
+} */
+.pTime{
+  box-sizing: border-box;
+  font-size: 0.8em;
+  color:rgb(151,151,151);
+  width: 100%;
+  
+}
+
+.timeMy{
+ text-align: right;
+ padding-right: 25px;
+}
+.timeChuck{
+ 
+ padding-left: 50px;
+}
+
+
+.box{
+  padding: 0;
+  width: 100%;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: flex-start;
+}
+
+.par{
+max-width: 90%;
+box-sizing: border-box;
+ padding: 10px;
+ border-radius: 2rem;
+ word-wrap: break-word; 
+ margin: 0 10px;
+}
+
+.parMy{
+  background-color:rgb(224,224,224);
+}
+.parChack{
+  background-color:rgb(60,66,82);
+  color:rgb(224,224,224);
+}
+.boxChakc{
+  
+}
+
+.boxMy{
+  justify-content: flex-end;
+}
+.parChak{
+  
+}
+.parMy{
+
+}

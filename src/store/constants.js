@@ -1,0 +1,5 @@
+export const GET_NAME_COLECTION = 'get_name_collection'
+export const GET_DATA_VALUE= 'get_data_value'
+export const LAST_MESS= 'LAST_MESS'
+export const REMOVE_LAST_MESS= 'REMOVE_LAST_MESS'
+export const FILTER_LIST= 'FILTER_LIST'
